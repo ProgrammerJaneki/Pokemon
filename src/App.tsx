@@ -1,9 +1,9 @@
-import './App.css';
+import { useState } from 'react';
 
 function App() {
   return (
     <>
-      <div>Hey</div>
+      <div className="bg-blue-200 p-2">Hey</div>
     </>
   );
 }
